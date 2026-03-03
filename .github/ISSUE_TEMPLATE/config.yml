@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Support
+    url: https://github.com/wajeht/.github/blob/main/SUPPORT.md
+    about: For setup, usage, and general questions.
+  - name: Security Report
+    url: https://github.com/wajeht/.github/security/policy
+    about: For confidential vulnerability reports only.

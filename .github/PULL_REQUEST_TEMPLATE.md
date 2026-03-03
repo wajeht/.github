@@ -1,11 +1,13 @@
-### Description
+## Summary
 
-<!-- Please insert your description here and provide especially info about the "what" this PR is solving, and "WHY" -->
+Describe what changed and why.
 
-### Linked Issues
+## Related Issue
 
-fixes #<number>
+Fixes #<issue-number>
 
-### Additional context
+## Checklist
 
-<!-- e.g. is there anything you'd like reviewers to focus on? -->
+- [ ] I reviewed my changes.
+- [ ] I added or updated tests/docs when needed.
+- [ ] This PR is focused and ready for review.

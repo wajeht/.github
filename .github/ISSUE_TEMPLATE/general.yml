@@ -1,0 +1,33 @@
+name: General Issue
+description: Report a bug, request an enhancement, or share a concern.
+labels: [needs-triage]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What happened or what do you need?
+      placeholder: Short, clear description.
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Steps, expected behavior, and actual behavior.
+      placeholder: Add reproduction steps or context.
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: App/library version (if applicable).
+      placeholder: e.g. v1.2.3
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues first.
+          required: true
+        - label: I included enough detail to triage this.
+          required: true
